@@ -1,5 +1,7 @@
 import { getPreferenceValues } from "@raycast/api";
 
+import { discoverTailscalePath } from "./lib/tailscale-path";
+
 export interface ExtensionPreferences {
   tailscalePath?: string;
   refreshIntervalSeconds: string;
@@ -11,7 +13,7 @@ export function getExtensionPreferences(): ExtensionPreferences {
 }
 
 export function resolveTailscalePath(preferences: ExtensionPreferences): string {
-  return preferences.tailscalePath?.trim() || "tailscale";
+  return preferences.tailscalePath?.trim() || discoverTailscalePath();
 }
 
 export function resolveRefreshInterval(preferences: ExtensionPreferences): number {
