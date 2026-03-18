@@ -1,7 +1,7 @@
 {
   "$schema": "https://www.raycast.com/schemas/extension.json",
-  "name": "tailscale",
-  "title": "Tailscale",
+  "name": "tailscale-control",
+  "title": "Tailscale Control",
   "description": "Control and inspect your local Tailscale node from Raycast.",
   "icon": "tailscale-extension-icon.png",
   "author": "acxtrila",
@@ -67,7 +67,7 @@
   "commands": [
     {
       "name": "tailscale",
-      "title": "Tailscale",
+      "title": "Tailscale Control",
       "description": "Inspect peers, health, and local Tailscale controls.",
       "icon": "tailscale-command-icon.png",
       "mode": "view"

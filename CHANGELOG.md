@@ -1,4 +1,4 @@
-# Tailscale Changelog
+# Tailscale Control Changelog
 
 ## [Initial Version]
 

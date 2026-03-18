@@ -1,4 +1,4 @@
-# Tailscale for Raycast
+# Tailscale Control
 
 Control and inspect your local Tailscale node from Raycast.
 
