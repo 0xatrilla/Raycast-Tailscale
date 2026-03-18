@@ -3,7 +3,7 @@
   "name": "tailscale",
   "title": "Tailscale",
   "description": "Control and inspect your local Tailscale node from Raycast.",
-  "icon": "icon.png",
+  "icon": "tailscale-extension-icon.png",
   "author": "acxtrila",
   "categories": [
     "Developer Tools",
@@ -69,13 +69,8 @@
       "name": "tailscale",
       "title": "Tailscale",
       "description": "Inspect peers, health, and local Tailscale controls.",
+      "icon": "tailscale-command-icon.png",
       "mode": "view"
-    },
-    {
-      "name": "tailscale-menu-bar",
-      "title": "Tailscale Menu Bar",
-      "description": "Keep Tailscale status and quick actions in the menu bar.",
-      "mode": "menu-bar"
     }
   ],
   "dependencies": {

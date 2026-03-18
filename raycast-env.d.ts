@@ -22,14 +22,10 @@ declare type Preferences = ExtensionPreferences
 declare namespace Preferences {
   /** Preferences accessible in the `tailscale` command */
   export type Tailscale = ExtensionPreferences & {}
-  /** Preferences accessible in the `tailscale-menu-bar` command */
-  export type TailscaleMenuBar = ExtensionPreferences & {}
 }
 
 declare namespace Arguments {
   /** Arguments passed to the `tailscale` command */
   export type Tailscale = {}
-  /** Arguments passed to the `tailscale-menu-bar` command */
-  export type TailscaleMenuBar = {}
 }
 
